@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>QuickE-pay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/util.js"></script>
+ <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+  
+</head>
+
+<body id="mundial" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div class="container" id="global">
+<nav id="navegador" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button id="men" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                     
+      </button>
+    <a href="#Inicio"><img id="logo" src="img/OriginalsinFondo.png" class="" width="190px" height="40px" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myCarousel">HOME</a></li>
+        <li><a href="#ServiciosI">PAGAR SERVICIOS</a></li>
+        <li><a href="#NosotrosI">SOBRE NOSOTROS</a></li>
+        <li><a href="#dudas1">DUDAS FRECUENTES</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#MyModal">INICIO DE SESIÓN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Slider-->
+
+<section id="myCarousel" style="width: 350px; height: 350px;" class="carousel slide center" width data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/Paso1.png" alt="Balon1" width="500" height="500">
+        <div class="carousel-caption">
+          <h3>Paso 1</h3>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img/Paso2.png" alt="Balon2" width="500" height="500">
+        <div class="carousel-caption">
+          <h3>Paso 2</h3>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="img/Paso3.png" alt="Balon3" width="500" height="700">
+        <div class="carousel-caption">
+          <h3>Paso 3</h3>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</section>
+
+<hr id="ServiciosI">
+<div id="Servicios" class="text-align-center text-inverse">PAGA AQUÍ</div>
+<hr>
+<section id="galeria">
+  <div class="container">
+  <div class="row text-center text-lg-left">
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/agua.png" alt="">Agua
+          </a>
+    </div>
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/luz.png" alt="">Luz
+          </a>
+    </div>
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gas.png" alt="">Gas
+          </a>
+    </div>
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/entretenimiento.png" alt="">Entretenimiento
+          </a>
+    </div>
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/bancos.png" alt="">Bancario
+          </a>
+    </div>
+    <div class="col-lg-4 col-md-3 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/telefono.png" alt="">Comunicación
+          </a>
+    </div>
+   
+  </div>
+</div>
+</section>
+<hr>
+<!-- Que espera de nosotros-->
+<section id="Nosotros" class="container-fluid text-center">
+  <div class="text-center">
+    <h3>QUE PUEDE ESPERAR DE NOSOTROS</h3>
+  </div>
+  <div id="" class="row">
+    <div class="col-xs-4 ">
+      <a href="#demo2" data-toggle="">
+        <img src="img/Seguridad.png" class="img-circle person" alt="Random Name" width="150" height="150">
+      </a>
+      <div id="demo2" class="">
+        <p>SEGURIDAD</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <a href="#demo2" data-toggle="">
+        <img src="img/Velocidad.png" class="img-circle person" alt="Random Name" width="150" height="150">
+      </a>
+      <div id="demo2" class="">
+        <p>VELOCIDAD</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <a href="#demo2" data-toggle="">
+        <img src="img/Portabilidad.png" class="img-circle person" alt="Random Name" width="150" height="150">
+      </a>
+      <div id="demo2" class="">
+        <p>PORTABILIDAD</p>
+      </div>
+    </div>
+    </div>
+    </div> 
+  </div>
+</section>
+<hr id="NosotrosI">
+<div id="Quien" class="text-align-center text-inverse">¿QUIÉNES SOMOS?</div>
+<hr>
+<section id="tres">
+  <div class="card">
+  <div class="card-body">
+    <blockquote id="muchotexto" class="blockquote mb-0 text-center aling-self-md-center">
+      <p>Nosotros somos una pequeña empresa con grandes ideas para facilitarte más las cosas de tu día a día, a ti nuestro querido cliente, con herramientas que dejamos a tu disposición para que todo sea de un mayor acceso para tu comodidad.</p>
+      <p>Guiados siempre por la responsabilidad que tenemos al ser el medio que maneja tú dinero, por la responsabilidad y compromiso para que todo salga a la perfección.</p>
+      <p>Nosotros somos QuickE-pay, sinónimo de Confiabilidad, Responsabilidad, Empeñó y Dedicación.</p>
+    </blockquote>
+  </div>
+</div>
+</section>  
+<hr>
+<div id="dudas1">DUDAS FRECUENTES</div>
+<section id="foro">
+  <div class="container" id="sdudas1">
+    <div class="col-12 col-md-3 text-center text-md-left aling-self-md-center">
+            <h3 class="display-4 display-sm-4 fonc-weight-bold text-primary" style="color: black;">Uso de tu información:</h3>
+            <a href="" style="font-size: 18px; ">¿A dónde va mi información?</a><br>
+            <a href="" style="font-size: 18px; ">¿Puedo evitar darles mi información?</a><br>
+            <a href="" style="font-size: 18px; ">Por qué confiar en QuickE-pay?</a>
+    </div>
+    <div class="col-12 col-md-3 text-center text-md-left aling-self-md-center">
+            <h3 class="display-4 display-sm-4 fonc-weight-bold text-primary" style="color: black;">Tiempo de pagos:</h3>
+            <a href="" style="font-size: 18px; ">¿Cuánto tarda en acreditarse mi pago?</a><br>
+            <a href="" style="font-size: 18px; ">¿Mi pago es seguro?</a><br>
+            <a href="" style="font-size: 18px; ">¿Necesito esperar entre pagos?</a>
+    </div>
+    <div id="guro" >
+      <div class="row text-center center-block" id="Preguntas">
+<div class="col-sm-6">
+  <div class="card">
+    <div class="card-body text-center center-block">
+      <h2 class="card-title">Tienes alguna otra duda?</h2>
+      <h4 class="card-text">Visita nuestro foro</h4>
+      <a href="#" class="btn btn-primary">Ir al foro</a>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+    <div class="col-12 col-md-3 text-center text-md-left aling-self-md-center">
+            <h3 class="display-4 display-sm-4 fonc-weight-bold text-primary" style="color: black;">Tipo de pagos:</h3>
+            <a href="" style="font-size: 18px; ">¿Qué métodos de pago acepta la plataforma?</a><br>
+            <a href="" style="font-size: 18px; ">¿Cuál es la comisión?</a><br>
+            <a href="" style="font-size: 18px; ">¿Existe algún límite de pagos que pueda realizar?</a>
+    </div>
+    <div class="col-12 col-md-3 text-center text-md-left aling-self-md-center">
+            <h3 class="display-4 display-sm-4 fonc-weight-bold text-primary" style="color: black;">Soporte:</h3>
+            <a href="" style="font-size: 18px; ">En caso de error, ¿qué soluciones hay?</a><br>
+            <a href="" style="font-size: 18px; ">¿Se genera algún historial en la página?</a><br>
+            <a href="" style="font-size: 18px; ">¿Hay comprobante de pago?</a>
+    </div>
+  </div>
+</div>
+  </section>
+  <br>
+<hr>
+</div>
+<footer id="piedepagina" class="">
+  <section id="display">
+  <div><iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.709319326856!2d-101.68272918555314!3d21.124151989891946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf0c63c31c89%3A0x8de90762405a4994!2s5%20de%20Mayo%20216%2C%20Centro%2C%2037000%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1594339485449!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+  <div id="fmedio">
+  <div class="container" id="contactanos"></div> 
+
+    <h2 id="conmedio" class="text-center">Contáctanos</h2>
+    <div id="linea1">
+      <div id="texto1" class="text-center">
+        <p>Calle 5 de Mayo 216</p>
+        <p>Obregon, León, Gto.</p>
+        <p>477-404-4950</p>
+        <p>477-850-3130</p>
+        <p>quickepayoficial@gmail.com</p>
+      </div>
+      <br>
+
+       <div id="siguenos">
+      <div id="texto2">
+        <a style="color:white;" href="#">Aviso de privacidad</a>
+        <hr>
+        <a style="color:white;" href="#">Políticas de uso</a>
+        <hr>
+        <a style="color:white;" href="#">Mapa del sitio</a>
+      </div> 
+
+      <h2 class="text-center" style="padding-top:20px;">Síguenos</h2>
+      <div id="linea2"></div>
+      <div id="sociales">
+      <a href="https://www.facebook.com/QuickEpayMex" target="_blank"><img id="sociales1" src="img/facebook.png" alt="" width="50px" height="50px"></a>
+      <a href=""><img id="sociales1" src="img/twitter.png" alt="" width="50px" height="50px"></a>
+      <a href="https://instagram.com/quicke_pay?igshid=1hw9u5nsay792"><img id="sociales1" src="img/instagram.png" alt="" width="50px" height="50px"></a>
+      
+      
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+</footer>
+
+</body>
+</html>
